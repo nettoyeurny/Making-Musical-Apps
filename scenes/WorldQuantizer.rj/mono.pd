@@ -1,0 +1,15 @@
+#N canvas 404 299 354 210 10;
+#X obj 80 85 f;
+#X obj 80 106 pack f 0;
+#X obj 21 132 outlet;
+#X msg 98 63 \$1;
+#X obj 21 40 t a a b;
+#X obj 21 15 inlet;
+#X text 10 171 makes monophonic output from polyphonic input;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 0 1;
+#X connect 4 0 2 0;
+#X connect 4 1 3 0;
+#X connect 4 2 0 0;
+#X connect 5 0 4 0;

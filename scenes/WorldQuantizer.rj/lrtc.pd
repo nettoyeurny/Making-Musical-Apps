@@ -1,0 +1,8 @@
+#N canvas 565 195 138 123 10;
+#X obj 16 14 r sequencer;
+#X obj 16 37 route \$1;
+#X obj 16 60 route \$2;
+#X obj 16 82 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;

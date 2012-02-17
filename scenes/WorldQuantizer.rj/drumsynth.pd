@@ -1,0 +1,38 @@
+#N canvas 100 198 628 518 10;
+#X obj 75 168 dd.bd;
+#X obj 69 126 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X obj 116 167 dd.hh;
+#X obj 120 115 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 158 167 dd.sn;
+#X obj 176 120 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 199 167 tr808.clap;
+#X obj 230 129 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 275 167 tr808.kick;
+#X obj 296 127 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 66 405 throw~ bus1L;
+#X obj 156 405 throw~ bus1R;
+#X obj 67 352 *~;
+#X obj 357 272 r sequencer;
+#X obj 357 294 route \$1;
+#X msg 356 370 set bus\$1L;
+#X msg 377 350 set bus\$1R;
+#X obj 357 313 route bus volume;
+#X obj 291 377 line~;
+#X obj 291 354 pack 1 20;
+#X obj 291 332 loadbang;
+#X connect 1 0 0 0;
+#X connect 3 0 2 0;
+#X connect 5 0 4 0;
+#X connect 7 0 6 0;
+#X connect 9 0 8 0;
+#X connect 12 0 10 0;
+#X connect 12 0 11 0;
+#X connect 13 0 14 0;
+#X connect 14 0 17 0;
+#X connect 19 0 18 0;
+#X connect 20 0 19 0;

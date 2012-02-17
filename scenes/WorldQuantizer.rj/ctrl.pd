@@ -1,0 +1,10 @@
+#N canvas 469 471 186 184 10;
+#X obj 22 134 s sequencer;
+#X obj 22 112 list trim;
+#X obj 22 91 list prepend \$1;
+#X obj 22 69 list prepend \$2;
+#X obj 22 45 inlet;
+#X connect 1 0 0 0;
+#X connect 2 0 1 0;
+#X connect 3 0 2 0;
+#X connect 4 0 3 0;

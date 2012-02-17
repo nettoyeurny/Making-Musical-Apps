@@ -1,0 +1,9 @@
+#N canvas 873 543 224 136 10;
+#X obj 32 52 outlet;
+#X obj 123 27 inlet;
+#X obj 32 28 r \$1-analyse;
+#X obj 124 48 f \$1;
+#X obj 125 68 s \$2;
+#X connect 1 0 3 0;
+#X connect 2 0 0 0;
+#X connect 3 0 4 0;

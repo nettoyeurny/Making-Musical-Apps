@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+		<key>author</key>
+		<string>Roman Haefeli</string>
+		<key>description</key>
+		<string>Records percussive sounds from your environment and rearranges them to rhythmic pattern. Try clapping your hands or use a pencil as a drum stick.</string>
+		<key>name</key>
+		<string>WorldQuantizer</string>
+		<key>category</key>
+		<string>Sing</string>
+	</dict>
+</dict>
+</plist>

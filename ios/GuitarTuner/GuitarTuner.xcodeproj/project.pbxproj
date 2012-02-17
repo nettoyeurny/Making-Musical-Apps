@@ -15,12 +15,12 @@
 		5879BC1514EE22A8004FEBB7 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC1414EE22A8004FEBB7 /* GTAppDelegate.m */; };
 		5879BC1814EE22A8004FEBB7 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC1714EE22A8004FEBB7 /* GTViewController.m */; };
 		5879BC1B14EE22A8004FEBB7 /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5879BC1914EE22A8004FEBB7 /* GTViewController.xib */; };
-		5879BC2B14EE22E0004FEBB7 /* fiddle~.c in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC2A14EE22E0004FEBB7 /* fiddle~.c */; };
 		5879BC2D14EE2405004FEBB7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC2C14EE2405004FEBB7 /* AudioToolbox.framework */; };
 		5879BC3114EE2437004FEBB7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC3014EE2437004FEBB7 /* AVFoundation.framework */; };
 		5879BC3214EE243C004FEBB7 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC2914EE22D0004FEBB7 /* libpd-ios.a */; };
 		5879BC3514EE24E6004FEBB7 /* PitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC3414EE24E6004FEBB7 /* PitchView.m */; };
 		5879BC3714EE257A004FEBB7 /* tuner.pd in Resources */ = {isa = PBXBuildFile; fileRef = 5879BC3614EE257A004FEBB7 /* tuner.pd */; };
+		5879BC3914EE26DA004FEBB7 /* fiddle~.c in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC3814EE26DA004FEBB7 /* fiddle~.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,12 @@
 		5879BC1714EE22A8004FEBB7 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
 		5879BC1A14EE22A8004FEBB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GTViewController.xib; sourceTree = "<group>"; };
 		5879BC2114EE22CF004FEBB7 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../../pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
-		5879BC2A14EE22E0004FEBB7 /* fiddle~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "fiddle~.c"; path = "../../../../pd-for-ios/libpd/pure-data/extra/fiddle~/fiddle~.c"; sourceTree = "<group>"; };
 		5879BC2C14EE2405004FEBB7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		5879BC3014EE2437004FEBB7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		5879BC3314EE24E6004FEBB7 /* PitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitchView.h; sourceTree = "<group>"; };
 		5879BC3414EE24E6004FEBB7 /* PitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitchView.m; sourceTree = "<group>"; };
 		5879BC3614EE257A004FEBB7 /* tuner.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tuner.pd; sourceTree = "<group>"; };
+		5879BC3814EE26DA004FEBB7 /* fiddle~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "fiddle~.c"; path = "../../../../pd-for-ios/libpd/pure-data/extra/fiddle~/fiddle~.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +114,9 @@
 		5879BC0A14EE22A8004FEBB7 /* GuitarTuner */ = {
 			isa = PBXGroup;
 			children = (
+				5879BC3814EE26DA004FEBB7 /* fiddle~.c */,
 				5879BC3314EE24E6004FEBB7 /* PitchView.h */,
 				5879BC3414EE24E6004FEBB7 /* PitchView.m */,
-				5879BC2A14EE22E0004FEBB7 /* fiddle~.c */,
 				5879BC1314EE22A8004FEBB7 /* GTAppDelegate.h */,
 				5879BC1414EE22A8004FEBB7 /* GTAppDelegate.m */,
 				5879BC1614EE22A8004FEBB7 /* GTViewController.h */,
@@ -229,8 +229,8 @@
 				5879BC1114EE22A8004FEBB7 /* main.m in Sources */,
 				5879BC1514EE22A8004FEBB7 /* GTAppDelegate.m in Sources */,
 				5879BC1814EE22A8004FEBB7 /* GTViewController.m in Sources */,
-				5879BC2B14EE22E0004FEBB7 /* fiddle~.c in Sources */,
 				5879BC3514EE24E6004FEBB7 /* PitchView.m in Sources */,
+				5879BC3914EE26DA004FEBB7 /* fiddle~.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

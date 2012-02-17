@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5879BC0514EE22A8004FEBB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC0414EE22A8004FEBB7 /* UIKit.framework */; };
+		5879BC0714EE22A8004FEBB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC0614EE22A8004FEBB7 /* Foundation.framework */; };
+		5879BC0914EE22A8004FEBB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC0814EE22A8004FEBB7 /* CoreGraphics.framework */; };
+		5879BC0F14EE22A8004FEBB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5879BC0D14EE22A8004FEBB7 /* InfoPlist.strings */; };
+		5879BC1114EE22A8004FEBB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC1014EE22A8004FEBB7 /* main.m */; };
+		5879BC1514EE22A8004FEBB7 /* GTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC1414EE22A8004FEBB7 /* GTAppDelegate.m */; };
+		5879BC1814EE22A8004FEBB7 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC1714EE22A8004FEBB7 /* GTViewController.m */; };
+		5879BC1B14EE22A8004FEBB7 /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5879BC1914EE22A8004FEBB7 /* GTViewController.xib */; };
+		5879BC2B14EE22E0004FEBB7 /* fiddle~.c in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC2A14EE22E0004FEBB7 /* fiddle~.c */; };
+		5879BC2D14EE2405004FEBB7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC2C14EE2405004FEBB7 /* AudioToolbox.framework */; };
+		5879BC3114EE2437004FEBB7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC3014EE2437004FEBB7 /* AVFoundation.framework */; };
+		5879BC3214EE243C004FEBB7 /* libpd-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5879BC2914EE22D0004FEBB7 /* libpd-ios.a */; };
+		5879BC3514EE24E6004FEBB7 /* PitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5879BC3414EE24E6004FEBB7 /* PitchView.m */; };
+		5879BC3714EE257A004FEBB7 /* tuner.pd in Resources */ = {isa = PBXBuildFile; fileRef = 5879BC3614EE257A004FEBB7 /* tuner.pd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5879BC2814EE22D0004FEBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5879BC2114EE22CF004FEBB7 /* libpd.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2AAC07E0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+		5879BC2E14EE2421004FEBB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5879BC2114EE22CF004FEBB7 /* libpd.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = "libpd-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5879BC0014EE22A8004FEBB7 /* GuitarTuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuitarTuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5879BC0414EE22A8004FEBB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5879BC0614EE22A8004FEBB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5879BC0814EE22A8004FEBB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5879BC0C14EE22A8004FEBB7 /* GuitarTuner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GuitarTuner-Info.plist"; sourceTree = "<group>"; };
+		5879BC0E14EE22A8004FEBB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5879BC1014EE22A8004FEBB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5879BC1214EE22A8004FEBB7 /* GuitarTuner-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GuitarTuner-Prefix.pch"; sourceTree = "<group>"; };
+		5879BC1314EE22A8004FEBB7 /* GTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTAppDelegate.h; sourceTree = "<group>"; };
+		5879BC1414EE22A8004FEBB7 /* GTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTAppDelegate.m; sourceTree = "<group>"; };
+		5879BC1614EE22A8004FEBB7 /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTViewController.h; sourceTree = "<group>"; };
+		5879BC1714EE22A8004FEBB7 /* GTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
+		5879BC1A14EE22A8004FEBB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GTViewController.xib; sourceTree = "<group>"; };
+		5879BC2114EE22CF004FEBB7 /* libpd.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libpd.xcodeproj; path = "../../../pd-for-ios/libpd/libpd.xcodeproj"; sourceTree = "<group>"; };
+		5879BC2A14EE22E0004FEBB7 /* fiddle~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "fiddle~.c"; path = "../../../../pd-for-ios/libpd/pure-data/extra/fiddle~/fiddle~.c"; sourceTree = "<group>"; };
+		5879BC2C14EE2405004FEBB7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		5879BC3014EE2437004FEBB7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5879BC3314EE24E6004FEBB7 /* PitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitchView.h; sourceTree = "<group>"; };
+		5879BC3414EE24E6004FEBB7 /* PitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitchView.m; sourceTree = "<group>"; };
+		5879BC3614EE257A004FEBB7 /* tuner.pd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tuner.pd; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5879BBFD14EE22A8004FEBB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5879BC3214EE243C004FEBB7 /* libpd-ios.a in Frameworks */,
+				5879BC3114EE2437004FEBB7 /* AVFoundation.framework in Frameworks */,
+				5879BC2D14EE2405004FEBB7 /* AudioToolbox.framework in Frameworks */,
+				5879BC0514EE22A8004FEBB7 /* UIKit.framework in Frameworks */,
+				5879BC0714EE22A8004FEBB7 /* Foundation.framework in Frameworks */,
+				5879BC0914EE22A8004FEBB7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5879BBF514EE22A8004FEBB7 = {
+			isa = PBXGroup;
+			children = (
+				5879BC3614EE257A004FEBB7 /* tuner.pd */,
+				5879BC3014EE2437004FEBB7 /* AVFoundation.framework */,
+				5879BC2C14EE2405004FEBB7 /* AudioToolbox.framework */,
+				5879BC2114EE22CF004FEBB7 /* libpd.xcodeproj */,
+				5879BC0A14EE22A8004FEBB7 /* GuitarTuner */,
+				5879BC0314EE22A8004FEBB7 /* Frameworks */,
+				5879BC0114EE22A8004FEBB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5879BC0114EE22A8004FEBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5879BC0014EE22A8004FEBB7 /* GuitarTuner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5879BC0314EE22A8004FEBB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5879BC0414EE22A8004FEBB7 /* UIKit.framework */,
+				5879BC0614EE22A8004FEBB7 /* Foundation.framework */,
+				5879BC0814EE22A8004FEBB7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5879BC0A14EE22A8004FEBB7 /* GuitarTuner */ = {
+			isa = PBXGroup;
+			children = (
+				5879BC3314EE24E6004FEBB7 /* PitchView.h */,
+				5879BC3414EE24E6004FEBB7 /* PitchView.m */,
+				5879BC2A14EE22E0004FEBB7 /* fiddle~.c */,
+				5879BC1314EE22A8004FEBB7 /* GTAppDelegate.h */,
+				5879BC1414EE22A8004FEBB7 /* GTAppDelegate.m */,
+				5879BC1614EE22A8004FEBB7 /* GTViewController.h */,
+				5879BC1714EE22A8004FEBB7 /* GTViewController.m */,
+				5879BC1914EE22A8004FEBB7 /* GTViewController.xib */,
+				5879BC0B14EE22A8004FEBB7 /* Supporting Files */,
+			);
+			path = GuitarTuner;
+			sourceTree = "<group>";
+		};
+		5879BC0B14EE22A8004FEBB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5879BC0C14EE22A8004FEBB7 /* GuitarTuner-Info.plist */,
+				5879BC0D14EE22A8004FEBB7 /* InfoPlist.strings */,
+				5879BC1014EE22A8004FEBB7 /* main.m */,
+				5879BC1214EE22A8004FEBB7 /* GuitarTuner-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5879BC2214EE22CF004FEBB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5879BC2914EE22D0004FEBB7 /* libpd-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5879BBFF14EE22A8004FEBB7 /* GuitarTuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5879BC1E14EE22A8004FEBB7 /* Build configuration list for PBXNativeTarget "GuitarTuner" */;
+			buildPhases = (
+				5879BBFC14EE22A8004FEBB7 /* Sources */,
+				5879BBFD14EE22A8004FEBB7 /* Frameworks */,
+				5879BBFE14EE22A8004FEBB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5879BC2F14EE2421004FEBB7 /* PBXTargetDependency */,
+			);
+			name = GuitarTuner;
+			productName = GuitarTuner;
+			productReference = 5879BC0014EE22A8004FEBB7 /* GuitarTuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5879BBF714EE22A8004FEBB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 5879BBFA14EE22A8004FEBB7 /* Build configuration list for PBXProject "GuitarTuner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5879BBF514EE22A8004FEBB7;
+			productRefGroup = 5879BC0114EE22A8004FEBB7 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5879BC2214EE22CF004FEBB7 /* Products */;
+					ProjectRef = 5879BC2114EE22CF004FEBB7 /* libpd.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				5879BBFF14EE22A8004FEBB7 /* GuitarTuner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5879BC2914EE22D0004FEBB7 /* libpd-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libpd-ios.a";
+			remoteRef = 5879BC2814EE22D0004FEBB7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5879BBFE14EE22A8004FEBB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5879BC0F14EE22A8004FEBB7 /* InfoPlist.strings in Resources */,
+				5879BC1B14EE22A8004FEBB7 /* GTViewController.xib in Resources */,
+				5879BC3714EE257A004FEBB7 /* tuner.pd in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5879BBFC14EE22A8004FEBB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5879BC1114EE22A8004FEBB7 /* main.m in Sources */,
+				5879BC1514EE22A8004FEBB7 /* GTAppDelegate.m in Sources */,
+				5879BC1814EE22A8004FEBB7 /* GTViewController.m in Sources */,
+				5879BC2B14EE22E0004FEBB7 /* fiddle~.c in Sources */,
+				5879BC3514EE24E6004FEBB7 /* PitchView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5879BC2F14EE2421004FEBB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libpd-ios";
+			targetProxy = 5879BC2E14EE2421004FEBB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5879BC0D14EE22A8004FEBB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5879BC0E14EE22A8004FEBB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5879BC1914EE22A8004FEBB7 /* GTViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5879BC1A14EE22A8004FEBB7 /* en */,
+			);
+			name = GTViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5879BC1C14EE22A8004FEBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5879BC1D14EE22A8004FEBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5879BC1F14EE22A8004FEBB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuitarTuner/GuitarTuner-Prefix.pch";
+				INFOPLIST_FILE = "GuitarTuner/GuitarTuner-Info.plist";
+				OTHER_CFLAGS = "-DPD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../pd-for-ios/libpd/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5879BC2014EE22A8004FEBB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GuitarTuner/GuitarTuner-Prefix.pch";
+				INFOPLIST_FILE = "GuitarTuner/GuitarTuner-Info.plist";
+				OTHER_CFLAGS = "-DPD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../pd-for-ios/libpd/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5879BBFA14EE22A8004FEBB7 /* Build configuration list for PBXProject "GuitarTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5879BC1C14EE22A8004FEBB7 /* Debug */,
+				5879BC1D14EE22A8004FEBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5879BC1E14EE22A8004FEBB7 /* Build configuration list for PBXNativeTarget "GuitarTuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5879BC1F14EE22A8004FEBB7 /* Debug */,
+				5879BC2014EE22A8004FEBB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5879BBF714EE22A8004FEBB7 /* Project object */;
+}

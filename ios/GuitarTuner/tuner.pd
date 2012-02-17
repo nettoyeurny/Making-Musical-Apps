@@ -1,0 +1,23 @@
+#N canvas 584 146 450 300 10;
+#X obj 354 125 adc~;
+#X floatatom 354 169 5 0 0 1 s:pitch - pitch;
+#X obj 49 25 bng 15 250 50 0 empty trigger r:trigger 17 7 0 10 -262144
+-1 -1;
+#X msg 49 45 1 10 \, 0 1000 10;
+#X obj 49 67 vline~;
+#X obj 49 89 *~;
+#X obj 49 111 dac~;
+#X floatatom 192 22 5 0 0 1 r:midinote midinote -;
+#X obj 192 41 mtof;
+#X obj 192 63 osc~ 220;
+#X obj 354 147 fiddle~ 2048;
+#X connect 0 0 10 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 5 0 6 1;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 5 1;
+#X connect 10 0 1 0;

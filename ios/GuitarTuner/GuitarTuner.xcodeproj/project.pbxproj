@@ -354,6 +354,7 @@
 				5879BC2014EE22A8004FEBB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

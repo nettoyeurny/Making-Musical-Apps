@@ -1,1 +1,17 @@
-Currently just a placeholder.  Stay tuned...
+Supporting materials for "Making Musical Apps" by Peter Brinkmann
+
+Useful links:
+   * book page: http://shop.oreilly.com/product/0636920022503.do
+   * libpd at GitHub: https://github.com/libpd
+   * Author's blog: http://nettoyeur.noisepages.com/
+   * Author's twitter feed: https://twitter.com/nettoyeurny
+   * MIDI over Bluetooth for Android: https://github.com/nettoyeurny/btmidi
+
+The sample projects in this repository are set up with the assumption
+that this repository has been cloned into the same parent folder as
+pd-for-android and pd-for-ios.  For example, you can clone them all into
+your Documents folder.
+
+When importing the sample project for Android into Eclipse, make sure to
+select "Import -> General -> Existing Projects into Workspace".  If you
+see spurious errors, have Eclipse clean and rebuilt your workspace.

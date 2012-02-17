@@ -14,3 +14,4 @@ build/*
 ios/GuitarTuner/GuitarTuner.xcodeproj/xcuserdata/*
 android/GuitarTuner/bin
 android/GuitarTuner/gen
+ios/GuitarTuner/GuitarTuner.xcodeproj/project.xcworkspace/xcuserdata

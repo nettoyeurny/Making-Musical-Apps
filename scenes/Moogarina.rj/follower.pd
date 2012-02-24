@@ -1,0 +1,13 @@
+#N canvas 604 67 820 589 10;
+#X obj 359 199 +;
+#X text 445 199 long-term loudness;
+#X obj 142 64 inlet;
+#X text 177 36 input;
+#X obj 391 200 * 0.94;
+#X obj 358 222 * 0.06;
+#X obj 362 268 outlet;
+#X connect 0 0 4 0;
+#X connect 0 0 5 0;
+#X connect 2 0 0 0;
+#X connect 4 0 0 1;
+#X connect 5 0 6 0;

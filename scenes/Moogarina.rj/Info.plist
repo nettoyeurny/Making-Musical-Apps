@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>info</key>
+	<dict>
+		<key>author</key>
+		<string>Frank Barknecht</string>
+		<key>description</key>
+        <string>Play a synth with your iThing. Change the pitch with your fingers on the four reddish buttons. We are using Ocarina fingerings, just like in that other software you already have. :)
+Cover based on "Ocarina face" by chidorian  / Ishikawa Ken. License: Attribution-Share Alike 2.0 Generic</string>
+		<key>name</key>
+		<string>Moogarina</string>
+		<key>category</key>
+		<string>Feel</string>
+	</dict>
+	<key>installLocation</key>
+	<string>Moogarina.rj</string>
+</dict>
+</plist>

@@ -4,7 +4,7 @@
 #X obj 84 214 *~ 0.1;
 #X floatatom 84 123 5 0 0 0 - - -;
 #X obj 68 254 soundoutput;
-#X obj 84 182 rj/e_freqshift;
+#X obj 84 182 e_freqshift;
 #X msg 254 155 freq \$1;
 #X floatatom 255 134 5 0 0 0 - - -;
 #X text 29 25 e_freqshift: shift all frequencies by a certain amount

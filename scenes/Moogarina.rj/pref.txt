@@ -1,0 +1,9 @@
+Scale:  
+        x = 4
+        y = 3
+
+Root:   
+        x = 4
+        y = 5
+
+Prefs button grids: 44, 45, 54, 55

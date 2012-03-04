@@ -55,6 +55,7 @@ from czero/cpole.;
 #X text 430 360 Also see these helpers for computing the coefficients
 of popular filter types:;
 #X text 491 573 ... and maybe more.;
+#X msg 221 304 clear;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 1 0 12 0;
@@ -72,3 +73,4 @@ of popular filter types:;
 #X connect 14 0 13 1;
 #X connect 15 0 14 1;
 #X connect 16 0 12 2;
+#X connect 29 0 1 1;

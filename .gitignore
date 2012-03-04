@@ -11,7 +11,5 @@ build/*
 *.mode2v3
 .DS_Store
 *.swp
-android/GuitarTuner/bin
-android/GuitarTuner/gen
 ios/GuitarTuner/GuitarTuner.xcodeproj/xcuserdata
 ios/GuitarTuner/GuitarTuner.xcodeproj/project.xcworkspace/xcuserdata

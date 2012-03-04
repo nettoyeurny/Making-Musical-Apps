@@ -1,4 +1,4 @@
-#N canvas 220 65 681 698 10;
+#N canvas 220 65 658 675 10;
 #N canvas 15 98 622 480 presets 0;
 #X obj 40 26 inlet;
 #X msg 43 122 \; param1 0 \; param2 22050 \; param3 22050 \; param4
@@ -111,31 +111,31 @@ tadada;
 #X msg 487 459 tadada;
 #N canvas 890 72 280 336 edit_params 0;
 #X obj 25 92 hsl 128 15 220.5 22050 1 0 param3 param3 damping -2 -8
-0 10 -262144 -1 -1 0 0;
+0 10 -262144 -1 -1 8400 0;
 #X floatatom 157 91 10 0 0 0 - param3 damping;
 #X obj 25 123 hsl 128 15 0 1 0 0 param4 param4 decay -2 -8 0 10 -262144
--1 -1 0 0;
+-1 -1 12446 0;
 #X floatatom 157 122 10 0 0 0 - param4 decay;
 #X obj 25 28 hsl 128 15 0 250 0 0 param1 param1 predelay -2 -8 0 10
 -262144 -1 -1 0 0;
 #X floatatom 157 27 10 0 0 0 - param1 predelay;
 #X obj 25 60 hsl 128 15 220.5 22050 1 0 param2 param2 bandwidth -2
--8 0 10 -262144 -1 -1 0 0;
+-8 0 10 -262144 -1 -1 10519 0;
 #X floatatom 157 59 10 0 0 0 - param2 bandwidth;
 #X obj 24 191 hsl 128 15 0 1 0 0 param6 param6 input_diffusion_2 -2
--8 0 10 -262144 -1 -1 0 0;
+-8 0 10 -262144 -1 -1 9893 0;
 #X floatatom 156 190 10 0 0 0 - param6 input_diffusion2;
 #X obj 25 156 hsl 128 15 0 1 0 0 param5 param5 input_diffusion_1 -2
--8 0 10 -262144 -1 -1 0 0;
+-8 0 10 -262144 -1 -1 8700 0;
 #X floatatom 157 155 10 0 0 0 - param5 input_diffusion1;
 #X obj 23 255 hsl 128 15 0 1 0 0 param8 param8 decay_diffusion_2 -2
--8 0 10 -262144 -1 -1 0 0;
+-8 0 10 -262144 -1 -1 8636 0;
 #X floatatom 155 254 10 0 0 0 - param8 decay_diffusion2;
 #X obj 24 222 hsl 128 15 0 1 0 0 param7 param7 decay_diffusion_1 -2
--8 0 10 -262144 -1 -1 0 0;
+-8 0 10 -262144 -1 -1 9398 0;
 #X floatatom 156 221 10 0 0 0 - param7 decay_diffusion1;
 #X obj 23 287 hsl 128 15 0 5 0 0 param9 param9 excursion -2 -8 0 10
--262144 -1 -1 0 0;
+-262144 -1 -1 1366 0;
 #X floatatom 155 286 10 0 0 0 - param9 excursion;
 #X restore 279 339 pd edit_params;
 #N canvas 66 24 387 608 receive_params 0;
@@ -176,11 +176,11 @@ tadada;
 #X connect 16 0 2 0;
 #X connect 17 0 3 0;
 #X connect 18 0 8 0;
-#X restore 220 435 pd receive_params;
+#X restore 220 453 pd receive_params;
 #X obj 68 610 soundoutput;
-#X obj 241 502 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3991 1;
-#X msg 238 521 dry \$1;
+#X obj 241 520 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 4191 1;
+#X msg 238 539 dry \$1;
 #X text 64 60 Reverb abstraction based on "Simplified plate-class reverberation
 topology in the style of Griesinger" from the article "Effect Design
 \, Part 1: Reverberator and Other Filters" by Jon Dattorro.;
@@ -188,8 +188,8 @@ topology in the style of Griesinger" from the article "Effect Design
 #X text 35 25 e_platereverb;
 #X text 63 125 Based on a Pd implementation by Anton Hornquist \, adapted
 to the RjDj style.;
-#X obj 238 456 loadbang;
-#X msg 238 477 0.33;
+#X obj 238 474 loadbang;
+#X msg 238 495 0.33;
 #X text 64 162 Argument: <name>;
 #X text 61 186 Inlet0~/Inlet1~: left and right signal to reverberate
 ;
@@ -197,13 +197,6 @@ to the RjDj style.;
 #X text 62 209 Inlet2:;
 #X text 125 230 many more parameters. check the subpatch: reveive_params
 ;
-#X msg 263 557 save;
-#X obj 220 600 u_cocollect;
-#X msg 219 624 dry 0.314252 \, decay_diffusion2 0.5 \, decay_diffusion1
-0.7 \, input_diffusion2 0.625 \, excursion 0.53761 \, input_diffusion1
-0.75 \, decay 0.5 \, damping 22050 \, bandwidth 22050 \, predelay 0
-\,;
-#X obj 263 577 t a b;
 #X connect 1 0 0 0;
 #X connect 2 0 0 0;
 #X connect 3 0 29 0;
@@ -223,10 +216,5 @@ to the RjDj style.;
 #X connect 27 0 29 2;
 #X connect 29 0 25 0;
 #X connect 29 1 25 1;
-#X connect 29 2 40 0;
 #X connect 32 0 33 0;
 #X connect 33 0 26 0;
-#X connect 39 0 42 0;
-#X connect 40 0 41 0;
-#X connect 42 0 29 2;
-#X connect 42 1 40 1;

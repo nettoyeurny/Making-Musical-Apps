@@ -7,8 +7,9 @@
 		<key>author</key>
 		<string>Frank Barknecht</string>
 		<key>description</key>
-        <string>Play a synth with your iThing. Change the pitch with your fingers on the four reddish buttons. We are using Ocarina fingerings, just like in that other software you already have. :)
-Cover based on "Ocarina face" by chidorian  / Ishikawa Ken. License: Attribution-Share Alike 2.0 Generic</string>
+        <string>
+            Play a synth with your iThing. Change the pitch with your fingers on the five orangish buttons. You can also change the octave layer by sliding your finger over the blue-faded area.
+        </string>
 		<key>name</key>
 		<string>Moogarina</string>
 		<key>category</key>

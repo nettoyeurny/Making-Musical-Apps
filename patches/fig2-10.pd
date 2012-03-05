@@ -1,0 +1,13 @@
+#N canvas 251 345 286 213 10;
+#X obj 38 52 adc~;
+#X obj 78 94 *~;
+#X obj 78 121 *~ 0.1;
+#X obj 72 159 dac~;
+#X obj 116 53 osc~ 220;
+#X text 159 99 Ring modulator;
+#X connect 0 0 1 0;
+#X connect 0 1 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 0 3 1;
+#X connect 4 0 1 1;

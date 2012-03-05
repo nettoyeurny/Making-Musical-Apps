@@ -9,6 +9,11 @@ Useful links
    * Author's twitter feed: https://twitter.com/nettoyeurny
    * MIDI over Bluetooth for Android: https://github.com/nettoyeurny/btmidi
 
+Sample patches
+
+The patches directory contains some sample patches from Chapter 2 of the
+book.
+
 Sample projects
 
 The sample projects for Android and iOS are set up with the assumption

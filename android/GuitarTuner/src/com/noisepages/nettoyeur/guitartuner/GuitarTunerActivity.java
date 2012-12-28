@@ -103,6 +103,7 @@ public class GuitarTunerActivity extends Activity implements OnClickListener {
 
 	private void  initPd() throws IOException {
 		// Configure the audio glue
+		AudioParameters.init(this);
 		int sampleRate = AudioParameters.suggestSampleRate();
 		pdService.initAudio(sampleRate, 1, 2, 10.0f);
 		start();
